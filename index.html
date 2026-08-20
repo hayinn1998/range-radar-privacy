@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>区间雷达 · 隐私政策</title>
+<style>
+  :root { color-scheme: light; }
+  body { margin: 0 auto; padding: 40px 20px 80px; max-width: 42rem;
+         font: 16px/1.75 -apple-system, "PingFang SC", "Noto Sans SC", sans-serif;
+         color: #0A1A30; background: #FFFFFF; }
+  h1 { font-size: 1.6rem; margin: 0 0 .25rem; }
+  .sub { color: #536984; font-size: .85rem; margin: 0 0 2.5rem; }
+  h2 { font-size: 1.05rem; margin: 2.2rem 0 .6rem; padding-top: 1.2rem;
+       border-top: 1px solid #DEE8F5; }
+  section:first-of-type h2 { border-top: 0; padding-top: 0; }
+  p { margin: .6rem 0; }
+  a { color: #1D4ED8; }
+</style>
+</head>
+<body>
+  <h1>区间雷达 · 隐私政策</h1>
+  <p class="sub">最后更新：2026-08-19 · 本页与 app 内「设置 → 关于 → 隐私政策」内容一致</p>
+  <section>
+    <h2>收集什么</h2>
+    <p>你用 Apple 登录时，本 app 会拿到 Apple 返回的用户标识。如果你没选择隐藏邮箱，还会拿到邮箱；选择隐藏时，Apple 可能给一个中继邮箱，也可能什么都不给。</p>
+    <p>你添加的股票代码、给每只股票设的区间（买入和卖出的上下沿、股数、箱体天数）会发到服务器。</p>
+    <p>价格碰到你设的区间时，服务器会记下这条信号：哪只股票、什么价格、什么时间、哪一类提醒。</p>
+    <p>如果你打开了推送，系统会生成一枚设备推送令牌，app 把它报到服务器，用来把提醒发到你这台手机。</p>
+  </section>
+  <section>
+    <h2>存在哪</h2>
+    <p>这些数据存在本 app 开发者运营的一台个人电脑上，不是云服务商的数据库。开发者对这台机器有完全访问权。</p>
+    <p>你在外网用 app 时，请求会经过开发者搭的中转，再落到这台电脑。</p>
+    <p>手机上的登录令牌存在本机钥匙串。</p>
+    <p>这是测试版。机器重装或数据库重建时，这些记录可能丢失。我们不做备份承诺。</p>
+  </section>
+  <section>
+    <h2>谁能看到</h2>
+    <p>开发者能看到：你添加的股票代码、你设的区间参数、触发过的信号历史、设备推送令牌、Apple 登录返回的用户标识，以及（如果你没隐藏、或 Apple 给了中继地址时的）邮箱。</p>
+    <p>开发者是这台电脑的管理员，打开数据库就能读到上面这些。不是「保证不看」，是技术上能看。</p>
+  </section>
+  <section>
+    <h2>不收集什么</h2>
+    <p>测试者不连券商。Robinhood 相关接口只有开发者本人能用，所以系统里没有你的持仓、券商账号密码、资金或成交记录——不是承诺不看，是这些数据根本没进来。</p>
+    <p>交易全部在 Robinhood 官方 app 里由你自己完成。本 app 不下单，也不保存你的券商凭据，不碰钱。</p>
+  </section>
+  <section>
+    <h2>第三方</h2>
+    <p>看行情时，服务器向 Yahoo 的公开接口查价格。请求里不带你的用户标识。</p>
+    <p>推送经 Apple 的 APNs 发到你的设备。</p>
+    <p>没有分析、没有广告、没有崩溃上报。</p>
+  </section>
+  <section>
+    <h2>删除</h2>
+    <p>你可以在雷达页把股票从监控里拿掉，但服务器上仍留有记录。</p>
+    <p>退出登录只清掉手机上的登录令牌，服务器上的账号数据还在。</p>
+    <p>要删掉服务器上属于你的数据，写信到 hayinn1998@outlook.com，说明你的 Apple 登录邮箱或能用来对上账号的信息。目前没有应用内一键删账号。</p>
+  </section>
+  <section>
+    <h2>联系方式</h2>
+    <p>隐私问题或要删数据，写信到 hayinn1998@outlook.com。</p>
+    <p>以上是当前实现的如实说明，不是法律承诺。</p>
+  </section>
+</body>
+</html>
